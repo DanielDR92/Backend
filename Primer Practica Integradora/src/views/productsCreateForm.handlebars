@@ -1,0 +1,12 @@
+<h2>Add Products</h2>
+
+<form id="formulario" action="/api/views/products/createProduct" method="post">
+    Producto: <input type="text" name="name" id="name">
+    Precio: <input type="number" name="price" id="price">
+    Cantidad: <input type="number" name="stock" id="stock">
+    <input id="agregar" type="submit" value="Agregar Producto">
+</form>
+
+
+{{!-- <script src="/socket.io/socket.io.js"></script> --}}
+<script src="/js/products.js"></script>
